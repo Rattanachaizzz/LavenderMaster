@@ -2948,11 +2948,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ctoso\\OneDrive\\Desktop\\LavenderMaster\\LavenderMaster\\LavenderMaster.csproj",
+      "projectUniqueName": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\LavenderMaster.csproj",
       "projectName": "LavenderMaster",
-      "projectPath": "C:\\Users\\ctoso\\OneDrive\\Desktop\\LavenderMaster\\LavenderMaster\\LavenderMaster.csproj",
+      "projectPath": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\LavenderMaster.csproj",
       "packagesPath": "C:\\Users\\ctoso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ctoso\\OneDrive\\Desktop\\LavenderMaster\\LavenderMaster\\obj\\",
+      "outputPath": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ctoso\\AppData\\Roaming\\NuGet\\NuGet.Config",

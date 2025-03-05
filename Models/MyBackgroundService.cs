@@ -10,8 +10,8 @@ using Npgsql;
 
 namespace LavenderMaster.Models
 {
-    //public class MyBackgroundService : IHostedService, IDisposable
-    public class MyBackgroundService : BackgroundService
+    public class MyBackgroundService : IHostedService, IDisposable
+    //public class MyBackgroundService : BackgroundService
     {
         private Timer _timer;
         public string Password_LAVENDERDB = "8545";
@@ -21,48 +21,36 @@ namespace LavenderMaster.Models
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                try 
+                DateTime now = DateTime.Now;
+                //DateTime nextRun = now.Date.AddHours(12); // 12:00:00 น.
+                DateTime nextRun = now.Date.AddDays(1); // 24:00:00 น.
+
+
+
+                // ถ้าตอนนี้เกิน 12:00 แล้ว ให้รอถึง 12:00 ของวันถัดไป
+                if (now > nextRun)
                 {
-                    DateTime now = DateTime.Now;
-                    DateTime nextRun = now.Date.AddHours(12);
-
-                    if (now >= nextRun)
-                    {
-                        nextRun = nextRun.AddDays(1);
-                    }
-
-                    TimeSpan delay = nextRun - now;
-                    await Task.Delay(delay, stoppingToken);
-                    DoWork(stoppingToken);
-                    Console.WriteLine("Hello! It's 12:00:00 PM!");
+                    nextRun = nextRun.AddDays(1);
                 }
-                catch (Exception ex) 
-                { 
-                    Console.WriteLine(ex.ToString());
-                }
+
+                TimeSpan delay = nextRun - now;
+                Console.WriteLine($"Next execution at: {nextRun}");
+
+                await Task.Delay(delay, stoppingToken); // รอจนถึง 12:00:00 น.
+
+                Console.WriteLine("Hello! It's 12:00:00 PM!");
             }
-        }*/
-
-        protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+        }
+*/
+        public Task StartAsync(CancellationToken cancellationToken)
         {
-            while (!stoppingToken.IsCancellationRequested)
-            {
-                Console.WriteLine("Hello! This runs every 5 seconds!");
-                try
-                {
-                    await Task.Delay(5000, stoppingToken);
-                    DoWork(stoppingToken);
-                }
-                catch (TaskCanceledException)
-                {
-                    return;
-                }
-            }
+            _timer = new Timer(DoWork, null, TimeSpan.Zero, TimeSpan.FromSeconds(5));
+            return Task.CompletedTask;
         }
 
         private void DoWork(object state)
         {
-            using (PostgresContext _db = new PostgresContext()) 
+            using (PostgresContext _db = new PostgresContext()) // สร้าง DbContext ใหม่
             {
                 var stations = _db.Stations.OrderBy(s => s.Id).ToList();
                 foreach (var station in stations)
@@ -77,8 +65,7 @@ namespace LavenderMaster.Models
                         Console.WriteLine(master);
                     }
                     catch (Exception ex)
-                    {
-                        return;
+                    { 
                     }
                 }
             }
@@ -96,7 +83,6 @@ namespace LavenderMaster.Models
                 using (NpgsqlConnection connection = new NpgsqlConnection($"Host={IpSim};Port=5432;Database=LAVENDERDB;Username={Username_LAVENDERDB};Password={Password_LAVENDERDB};"))
                 {
                     connection.Open();
-
                     //Hoses
                     using (cmd = new NpgsqlCommand("SELECT * FROM lavender.hoses", connection))
                     using (reader = cmd.ExecuteReader())
@@ -135,6 +121,7 @@ namespace LavenderMaster.Models
                     /*advances_setting,
                     grades,
                     hoses,
+                    lavender_api,
                     lavender_socket,
                     loops,
                     loops_type,
