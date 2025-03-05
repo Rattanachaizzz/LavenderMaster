@@ -1,0 +1,30 @@
+﻿@* @{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+ *@
+
+<button id="btnLoad">Load Data</button>
+<ul id="userList"></ul>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $("#btnLoad").click(function() {
+        $.ajax({
+            url: "/api/users",  // เรียก API
+            type: "GET",
+            dataType: "json",
+            success: function(data) {
+                $("#userList").empty(); // ล้างข้อมูลเก่า
+                $.each(data, function(index, user) {
+                    $("#userList").append("<li>" + user.name + " (" + user.age + " ปี)</li>");
+                });
+            },
+            error: function(xhr) {
+                console.error(xhr.responseText);
+            }
+        });
+    });
+</script>

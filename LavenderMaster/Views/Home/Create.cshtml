@@ -1,0 +1,28 @@
+﻿ @* @model IEnumerable<Station> *@
+
+<h2>Stations</h2>
+<p>
+    <a href="@Url.Action("Create")">Create New Station</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @* @foreach (var station in Model)
+        {
+            <tr>
+                <td>@station.Id</td>
+                <td>@station.Name</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = station.Id })">Edit</a> |
+                    <a href="@Url.Action("Delete", new { id = station.Id })">Delete</a>
+                </td>
+            </tr>
+        } *@
+    </tbody>
+</table>
