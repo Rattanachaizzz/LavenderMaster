@@ -143,13 +143,6 @@ D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Lave
 D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\LavenderMaster.TagHelpers.input.cache
 D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\LavenderMaster.TagHelpers.output.cache
 D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\LavenderMaster.RazorCoreGenerate.cache
-D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Razor\New folder\Views\Home\Index.cshtml.g.cs
-D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Razor\New folder\Views\Home\Privacy.cshtml.g.cs
-D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Razor\New folder\Views\Shared\Error.cshtml.g.cs
-D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Razor\New folder\Views\Shared\_Layout.cshtml.g.cs
-D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Razor\New folder\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Razor\New folder\Views\_ViewImports.cshtml.g.cs
-D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Razor\New folder\Views\_ViewStart.cshtml.g.cs
 D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
 D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\rattanachai\github\LavenderMaster\LavenderMaster\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs

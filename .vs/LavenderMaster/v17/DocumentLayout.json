@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\rattanachai\\github\\LavenderMaster\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|d:\\rattanachai\\github\\lavendermaster\\lavendermaster\\models\\mybackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|solutionrelative:lavendermaster\\models\\mybackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|d:\\rattanachai\\github\\lavendermaster\\lavendermaster\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|solutionrelative:lavendermaster\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|d:\\rattanachai\\github\\lavendermaster\\lavendermaster\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|solutionrelative:lavendermaster\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|d:\\rattanachai\\github\\lavendermaster\\lavendermaster\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|solutionrelative:lavendermaster\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|d:\\rattanachai\\github\\lavendermaster\\lavendermaster\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|solutionrelative:lavendermaster\\views\\home\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|d:\\rattanachai\\github\\lavendermaster\\lavendermaster\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|solutionrelative:lavendermaster\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|d:\\rattanachai\\github\\lavendermaster\\lavendermaster\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|solutionrelative:lavendermaster\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|d:\\rattanachai\\github\\lavendermaster\\lavendermaster\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{201FB777-7410-4879-8116-EED7EBC6F032}|LavenderMaster\\LavenderMaster.csproj|solutionrelative:lavendermaster\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Views\\Home\\Create.cshtml",
+              "RelativeDocumentMoniker": "LavenderMaster\\Views\\Home\\Create.cshtml",
+              "ToolTip": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Views\\Home\\Create.cshtml",
+              "RelativeToolTip": "LavenderMaster\\Views\\Home\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T06:50:12.096Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\appsettings.json",
-              "RelativeDocumentMoniker": "LavenderMaster\\appsettings.json",
-              "ToolTip": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\appsettings.json",
-              "RelativeToolTip": "LavenderMaster\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-05T17:27:45.831Z"
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "LavenderMaster\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "LavenderMaster\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwEcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T04:28:40.022Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MyBackgroundService.cs",
-              "DocumentMoniker": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Models\\MyBackgroundService.cs",
-              "RelativeDocumentMoniker": "LavenderMaster\\Models\\MyBackgroundService.cs",
-              "ToolTip": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Models\\MyBackgroundService.cs",
-              "RelativeToolTip": "LavenderMaster\\Models\\MyBackgroundService.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAowIQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:18:51.785Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LavenderMaster\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LavenderMaster\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T04:21:22.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LavenderMaster\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "LavenderMaster\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T04:12:59.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LavenderMaster\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Controllers\\HomeController.cs",
               "RelativeToolTip": "LavenderMaster\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAswCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:18:17.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Startup.cs",
-              "RelativeDocumentMoniker": "LavenderMaster\\Startup.cs",
-              "ToolTip": "D:\\rattanachai\\github\\LavenderMaster\\LavenderMaster\\Startup.cs",
-              "RelativeToolTip": "LavenderMaster\\Startup.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAACLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T17:11:40.248Z"
+              "WhenOpened": "2025-03-06T04:12:30.293Z"
             }
           ]
         }

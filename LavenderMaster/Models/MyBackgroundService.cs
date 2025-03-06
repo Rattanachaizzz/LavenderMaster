@@ -10,7 +10,6 @@ using Npgsql;
 
 namespace LavenderMaster.Models
 {
-    //public class MyBackgroundService : IHostedService, IDisposable
     public class MyBackgroundService : BackgroundService
     {
         private Timer _timer;

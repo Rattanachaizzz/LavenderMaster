@@ -69,6 +69,12 @@ namespace LavenderMaster.Controllers
             return View();
         }
 
+        public IActionResult Create()
+        {
+            return View();
+        }
+        
+
         public List<Stations> GetAllStation()
         {
             stations = _context.Stations.OrderBy(s => s.Id).ToList();
@@ -95,9 +101,9 @@ namespace LavenderMaster.Controllers
 
         public void download(int station_id)
         {
-            var s = _context.Stations.SingleOrDefault(s => s.Id == station_id);
-            s.Content = "11111";
-            _context.SaveChanges();
+            //var s = _context.Stations.SingleOrDefault(s => s.Id == station_id);
+            //s.Content = "11111";
+            //_context.SaveChanges();
         }
     }
 }
