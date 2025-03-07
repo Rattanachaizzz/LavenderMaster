@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LavenderMaster")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad33222e566af69337f9a38eac5028edad493ada")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("LavenderMaster")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LavenderMaster")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

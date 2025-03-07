@@ -64,21 +64,28 @@ namespace LavenderMaster.Models
             using (PostgresContext _db = new PostgresContext()) 
             {
                 var stations = _db.Stations.OrderBy(s => s.Id).ToList();
-                foreach (var station in stations)
+                if (stations.Count != 0)
                 {
-                    try
+                    foreach (var station in stations)
                     {
-                        string master = GetMaster(station.IpSim);
-                        Stations s = _db.Stations.FirstOrDefault(s => s.Id == station.Id);
-                        s.Content = master;
-                        s.CreateDate = DateTime.Now;
-                        _db.SaveChanges();
-                        Console.WriteLine(master);
+                        try
+                        {
+                            string master = GetMaster(station.IpSim);
+                            Stations s = _db.Stations.FirstOrDefault(s => s.Id == station.Id);
+                            s.Content = master;
+                            s.CreateDate = DateTime.Now;
+                            _db.SaveChanges();
+                            Console.WriteLine(master);
+                        }
+                        catch (Exception ex)
+                        {
+                            return;
+                        }
                     }
-                    catch (Exception ex)
-                    {
-                        return;
-                    }
+                }
+                else
+                { 
+                    Console.WriteLine("Station count equel zero, Press recheck infomation in database.");
                 }
             }
         }
